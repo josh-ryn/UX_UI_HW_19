@@ -1,0 +1,402 @@
+body {
+  background-color: #FEFEFE;
+} 
+
+
+/*NAVIGATION BAR START*/
+nav {
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #D9D9D9;
+  top: 0; 
+  margin-left: -8px;
+  width: 100%;
+  height: 81px;
+}
+
+#logo {
+ max-width: 50%;
+ max-height: 50%;
+ margin-left: 20px;
+ margin-top: 15px;
+}
+
+#titlename {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-left: 42px;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;  
+    width: 60%;
+    margin-left: 0%;
+    margin-top: -3px
+}
+
+#list1name {
+  font-size: 18px;
+  padding-left: 32px;
+  margin-top: 10px;  
+}
+ /*NAVIGATION BAR END*/
+
+
+ /*HERO SECTION START*/
+section.heroImg {
+    display: flex;
+    height: 600px;
+    margin-top: 81px;
+    padding: 42px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+}
+
+.leftcolumn {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  flex: 1;
+  }
+  
+H1 {
+  font-size: 72px;
+}
+
+H2 {
+  margin-top: -20px;
+  font-size: 42px;
+}
+
+.rightcolumn {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
+  flex: 2;
+  background-color: #555;
+  position: relative;
+  z-index: -1;
+}
+
+.rightcolumn #projectimg {
+  width: 100%;
+  height: 100%;
+}
+
+.rightcolumn button {
+  max-width: 25%;
+  top: 100%;
+  background-color: #e4e4e4;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  z-index: -0;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: -10%;
+}
+/*HERO SECTION END*/
+
+
+/*MY SKILLS SECTION START*/
+
+.myskills {
+  height: 880px;
+  padding-left: 42px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: pink;
+  z-index: -1;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: rows;
+  border-style: solid;
+  border-width: 3px;
+  border-color: purple;
+  height: 483px;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+  
+#skill1 {
+  width: 33%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: orange;
+  margin-right: 20px;
+}
+    
+#img1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#skill2 {
+  width: 33%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+  margin-right: 20px;
+}
+
+#img2 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#skill3 {
+  width: 33%; 
+  border-style: solid;
+  border-width: 5px;
+  border-color: brown;
+}
+
+#img3 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: rows;
+  border-style: solid;
+  border-width: 5px;
+  border-color: brown;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+
+#skilltxt1 {
+  width: 33%;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+#skilltxt2 {
+    width: 33%;
+    margin-left: 88px;
+    font-size: 20px;
+}
+
+#skilltxt3 {
+    width: 33%;
+    margin-left: 88px;
+   font-size: 20px;
+}
+/*MY SKILLS SECTION END*/
+
+
+/*MY WORK SECTION START*/
+.myWrk {
+  height: 1024px;
+  padding-left: 42px;
+  padding-right: 42px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: pink;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: 210px 210px 210px;
+  gap: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+}
+
+.wrk1Desc {
+  margin-left: 22px;
+  margin-right: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orange;
+  grid-column: 1 /3;
+}
+
+.wrk1button button {
+  border-radius: 5px;
+  padding: 15px 32px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 80px 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
+}
+
+.wrk1img {
+  grid-column: 4 /7;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  z-index: -1;
+}
+
+#img4 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.wrk2Desc {
+  margin-left: 22px;
+  margin-right: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orange;
+  grid-column: 1 /3;
+}
+
+.wrk2button button{
+  border-radius: 5px;
+  padding: 15px 32px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 80px 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
+}
+
+.wrk2img {
+  grid-column: 4 /7;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  z-index: -1;
+}
+
+#img5 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.wrk3Desc {
+  margin-left: 22px;
+  margin-right: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orange;
+  grid-column: 1 /3;
+}
+
+.wrk3button button {
+  border-radius: 5px;
+  padding: 15px 32px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 80px 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
+}
+
+.wrk3img {
+  grid-column: 4 /7;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  z-index: -1;
+}
+
+#img6 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+/*MY WORK SECTION END*/
+
+
+/*FOOTER START*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 1%;
+    background-color: #373738;
+}
+
+.bottomnav {
+  display: flex;
+  flex-direction: row; 
+  width: 60%;
+  height: 100px;
+  margin-left: 0%;
+  margin-top: -3px
+}
+  
+ #list2name{
+  font-size: 16px;
+  color: #D9D9D9;
+  padding-left: 1%;
+  display: flex;
+  margin-left: -40px;
+  justify-content: flex-start;
+  list-style-type: none;  
+  width: 10%;
+  padding-left: 5px;
+}
+
+#footphrase {
+  font-size: large;
+  color: #D9D9D9;
+}
+/*FOOTER END*/
+
+
+/*MOBILE MEDIA QUERY START*/
+@media only screen and (max-width: 600) {
+  .workGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 210px 210px 210px 210px 210px 210px;
+    gap: 80px;
+    Grid-template-areas:
+    “wrk1Desc wrk1button”
+    “wrk1img”
+    “wrk2Desc wrk2button”
+    “wrk2img”
+    “wrk3Desc wrk3button”
+    “wrk3img”
+    }
+}
+  /*MOBILE MEDIA QUERY END*/
+
+
+/*END OF DOC*/
